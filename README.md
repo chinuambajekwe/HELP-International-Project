@@ -1,2 +1,21 @@
 # HELP-International-Project
-Use a K-means clustering algorithm to categorize countries based on various development indicators indicating those to be prioritized when for disbursing Foreign aid
+HELP International an NGO, is committed to fighting poverty and providing the people in developing countries with basic amenities and relief during the time of disasters and natural calamities.
+ Task:  Provide the NGO with a group of countries that are in critical conditions. Explore countries in different groups to prioritize when allocating resources.
+Action: Used  K-means clustering algorithm to determine the optimal number of clusters and categorize countries based on their foreign aid requirement using the development indicators provided.
+
+Insights:
+
+
+
+Clustering Insights:
+Most countries in Africa require foreign aid urgently. These countries are characterized 
+by low levels of development which is evidenced by indicators such as  
+- high child mortality rates
+- ligh inflation rate
+- high fertility rates
+- low health expenditure
+- high total fertility rate
+
+Some countries in the Middle East and Asia also urgently require foreign aid
+Only a few countries in South America urgently require foreign aid
+North American and European countries do not require foreign aid 
