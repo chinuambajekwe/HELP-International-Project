@@ -13,6 +13,4 @@ by low levels of development which is evidenced by indicators such as
 - low health expenditure
 - high total fertility rate
 
-Some countries in the Middle East and Asia also urgently require foreign aid
-Only a few countries in South America urgently require foreign aid
-North American and European countries do not require foreign aid 
+Certain countries in the Middle East and Asia are in urgent need of foreign aid. In South America, only a handful of countries require immediate assistance. Meanwhile, countries in North America and Europe do not need foreign aid.
