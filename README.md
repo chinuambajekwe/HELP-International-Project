@@ -4,7 +4,7 @@ HELP International an NGO, is committed to fighting poverty and providing the pe
 Task:  Provide the NGO with a group of countries that are in critical conditions. Explore countries in different groups to prioritize when allocating resources.
 Action: Used K-means clustering algorithm to determine the optimal number of clusters and categorize countries based on their foreign aid requirement using the development indicators provided.
 
-**Data Distribution**
+****Data Distribution****
 
 ![visualization1_page-0001](https://github.com/user-attachments/assets/664d9b89-6125-42b8-9791-cd54db5b925e)
 
@@ -35,14 +35,13 @@ rates reaching up to 7%.
 **GDP**: GDP per capita for most countries is below 2000, but there are outliers with values as high as 100,000, 
 resulting in a right-skewed distribution.
 
-**Exploring Relationships across Variables**
+****Exploring Relationships across Variables****
 ![visualization2_page-0001](https://github.com/user-attachments/assets/e986d494-9faa-4236-a7f6-3fcdad062ea8)
 
 **Variables with high positive correlation**
 - Total fertility and Child Mortality: The higher the fertility rates, the higher the child mortality rate
   
--Imports and Exports: The higher the imports, the higher the exports. So 
-countries that have high exports also import a lot.
+-Imports and Exports: The higher the imports, the higher the exports. So countries that have high exports also import a lot.
 
 -Income and exports: The higher the countries exports, the higher their income,
 which is intuitive because the foreign exchange obtained from selling locally produced goods
@@ -72,7 +71,7 @@ its life expectancy
 ![top_5_countries_total_fer_page-0001](https://github.com/user-attachments/assets/e72ed5a2-7933-4246-b55f-3c338443d0fc)
 
 
-**Clustering Process**
+****Clustering Process****
 
 Optimal number of clusters
 
@@ -84,7 +83,8 @@ Optimal number of clusters
  Class 2 - not a priority
 ![visualization6_page-0001](https://github.com/user-attachments/assets/e1f459b0-df64-475f-9413-ae41090b2dc5)
 
-**Clustering Insights:**
+
+****Clustering Insights:****
 Most countries in Africa require foreign aid urgently. These countries are characterized 
 by low levels of development which is evidenced by indicators such as  
 - high child mortality rates
@@ -95,7 +95,6 @@ by low levels of development which is evidenced by indicators such as
 
 Certain countries in the Middle East and Asia are in urgent need of foreign aid. In South America, only a handful of countries require immediate assistance. Meanwhile, countries in North America and Europe do not need foreign aid.
 
-**Comparing the median indicator values across clusters
-**
+****Comparing the median indicator values across clusters****
 ![visualization8_page-0001](https://github.com/user-attachments/assets/e87bb31b-6a0f-4466-98e3-01dd55c34a53)
 ![visualization9_page-0001](https://github.com/user-attachments/assets/d74b49f0-8e2e-438e-afa8-10c67edd069a)
