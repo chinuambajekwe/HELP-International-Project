@@ -5,7 +5,7 @@ Task:  Provide the NGO with a group of countries that are in critical conditions
 Action: Used K-means clustering algorithm to determine the optimal number of clusters and categorize countries based on their foreign aid requirement using the development indicators provided.
 
 **Data Distribution**
-[visualization1.pdf](https://github.com/user-attachments/files/16949558/visualization1.pdf)
+[top_5_countries_gdpp.pdf](https://github.com/user-attachments/files/16949903/top_5_countries_gdpp.pdf)
 
 **Child Mortality**: The dataset shows that many countries have child mortality rates below 50. However, there 
 are a few outliers with rates of 100 and above, leading to a right-skewed distribution.
