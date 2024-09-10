@@ -5,7 +5,6 @@ Task:  Provide the NGO with a group of countries that are in critical conditions
 Action: Used K-means clustering algorithm to determine the optimal number of clusters and categorize countries based on their foreign aid requirement using the development indicators provided.
 
 **Data Distribution**
-![IMG_4952](https://github.com/user-attachments/assets/9d49c457-4c4c-4b2b-8825-93b852534206)
 
 [visualization1.pdf](https://github.com/user-attachments/files/16949933/visualization1.pdf)
 
@@ -37,6 +36,7 @@ rates reaching up to 7%.
 resulting in a right-skewed distribution.
 
 **Exploring Relationships across Variables**
+[visualization2.pdf](https://github.com/user-attachments/files/16950046/visualization2.pdf)
 
 **Variables with high positive correlation**
 - Total fertility and Child Mortality: The higher the fertility rates, the higher the child mortality rate
@@ -56,27 +56,34 @@ their income.
 **Variables with high negative correlation**
 - Income and Child Mortality:The higher the country's net income per person, the lower its 
 child mortality.
-[visualization3.pdf](https://github.com/user-attachments/files/16949569/visualization3.pdf)
+[visualization3.pdf](https://github.com/user-attachments/files/16950047/visualization3.pdf)
 
 
 - Life expectancy and Total fertility: The higher the country's fertility rate, the lower
 its life expectancy
-[visualization4.pdf](https://github.com/user-attachments/files/16949625/visualization4.pdf)
+[visualization4.pdf](https://github.com/user-attachments/files/16950048/visualization4.pdf)
+
+Top Countries by Indicators 
+
+[top_5_countries_exports.pdf](https://github.com/user-attachments/files/16950041/top_5_countries_exports.pdf)
+[top_5_countries_gdpp.pdf](https://github.com/user-attachments/files/16950042/top_5_countries_gdpp.pdf)
+[top_5_countries_health.pdf](https://github.com/user-attachments/files/16950043/top_5_countries_health.pdf)
+[top_5_countries_life_expec.pdf](https://github.com/user-attachments/files/16950044/top_5_countries_life_expec.pdf)
+[top_5_countries_total_fer.pdf](https://github.com/user-attachments/files/16950045/top_5_countries_total_fer.pdf)
 
 
 **Clustering Process**
 
 Optimal number of clusters
 
-[visualization5.pdf](https://github.com/user-attachments/files/16949641/visualization5.pdf)
-
+[visualization5.pdf](https://github.com/user-attachments/files/16950049/visualization5.pdf)
 
 **Cluster Definition**
  Class 0 - requires urgent foreign aid
  Class 1 - No foreign aid 
  Class 2 - not a priority
  
-[visualization6.pdf](https://github.com/user-attachments/files/16949644/visualization6.pdf)
+[visualization6.pdf](https://github.com/user-attachments/files/16950050/visualization6.pdf)
 
 Clustering Insights:
 Most countries in Africa require foreign aid urgently. These countries are characterized 
@@ -88,3 +95,8 @@ by low levels of development which is evidenced by indicators such as
 - high total fertility rate
 
 Certain countries in the Middle East and Asia are in urgent need of foreign aid. In South America, only a handful of countries require immediate assistance. Meanwhile, countries in North America and Europe do not need foreign aid.
+
+Comparing the median indicator values across clusters
+
+[visualization9.pdf](https://github.com/user-attachments/files/16950053/visualization9.pdf)
+[visualization8.pdf](https://github.com/user-attachments/files/16950054/visualization8.pdf)
