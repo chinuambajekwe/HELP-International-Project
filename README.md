@@ -1,8 +1,9 @@
 # HELP-International-Project
 HELP International an NGO, is committed to fighting poverty and providing the people in developing countries with basic amenities and relief during the time of disasters and natural calamities.
  
-Task:  Provide the NGO with a group of countries that are in critical conditions. Explore countries in different groups to prioritize when allocating resources.
-Action: Used K-means clustering algorithm to determine the optimal number of clusters and categorize countries based on their foreign aid requirement using the development indicators provided.
+- Task:  Provide the NGO with a group of countries that are in critical conditions. Explore countries in different groups to prioritize when allocating resources.
+
+- Action: Used K-means clustering algorithm to determine the optimal number of clusters and categorize countries based on their foreign aid requirement using the development indicators provided.
 
 ****Data Distribution****
 
@@ -41,9 +42,9 @@ resulting in a right-skewed distribution.
 **Variables with high positive correlation**
 - Total fertility and Child Mortality: The higher the fertility rates, the higher the child mortality rate
   
--Imports and Exports: The higher the imports, the higher the exports. So countries that have high exports also import a lot.
+- Imports and Exports: The higher the imports, the higher the exports. So countries that have high exports also import a lot.
 
--Income and exports: The higher the countries exports, the higher their income,
+- Income and exports: The higher the countries exports, the higher their income,
 which is intuitive because the foreign exchange obtained from selling locally produced goods
 increases the net income per person. 
 
@@ -62,7 +63,7 @@ child mortality.
 its life expectancy
 ![visualization4_page-0001](https://github.com/user-attachments/assets/e676555d-45d9-4b35-8c80-307a411bb5f9)
 
-**Top Countries by Indicators **
+**Top Countries by Indicators**
 
 ![top_5_countries_exports_page-0001](https://github.com/user-attachments/assets/928e3d4a-75b2-4854-9d31-d1909a749a5f)
 ![top_5_countries_gdpp_page-0001](https://github.com/user-attachments/assets/56bdff42-9317-41ce-9f58-55f2245f7424)
@@ -73,7 +74,7 @@ its life expectancy
 
 ****Clustering Process****
 
-Optimal number of clusters
+Optimal number of clusters:
 
 ![visualization5_page-0001](https://github.com/user-attachments/assets/fa93dd87-0d9d-414c-8cab-13981658e2b8)
 
