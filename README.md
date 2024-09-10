@@ -5,6 +5,7 @@ Task:  Provide the NGO with a group of countries that are in critical conditions
 Action: Used K-means clustering algorithm to determine the optimal number of clusters and categorize countries based on their foreign aid requirement using the development indicators provided.
 
 **Data Distribution**
+![IMG_4952](https://github.com/user-attachments/assets/9d49c457-4c4c-4b2b-8825-93b852534206)
 
 [visualization1.pdf](https://github.com/user-attachments/files/16949933/visualization1.pdf)
 
