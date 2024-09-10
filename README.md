@@ -74,7 +74,7 @@ its life expectancy
 
 ****Clustering Process****
 
-Optimal number of clusters:
+Optimal number of clusters is determined using the **Elbow Method**. Here, the value of k at the “elbow” i.e the point after which t increasing K(the number of clusters) no longer leads to a significant decrease in WCSS(Within-Cluster Sum of Squares) and the rate of decrease slows down. This point is often referred to as the elbow.
 
 ![visualization5_page-0001](https://github.com/user-attachments/assets/fa93dd87-0d9d-414c-8cab-13981658e2b8)
 
