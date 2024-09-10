@@ -4,6 +4,68 @@ HELP International an NGO, is committed to fighting poverty and providing the pe
 Task:  Provide the NGO with a group of countries that are in critical conditions. Explore countries in different groups to prioritize when allocating resources.
 Action: Used K-means clustering algorithm to determine the optimal number of clusters and categorize countries based on their foreign aid requirement using the development indicators provided.
 
+Data Distribution
+Child Mortality: The dataset shows that many countries have child mortality rates below 50. However, there 
+are a few outliers with rates of 100 and above, leading to a right-skewed distribution.
+
+Exports: Most countries have export values below 100, but a small number of countries have exports exceeding 
+1000, which also results in a right-skewed distribution.
+
+Health Expenditure: Health expenditure for the majority of countries ranges between 2% and 12%. Only a few 
+countries exceed 14%, creating a right-skewed distribution.
+
+Imports: Most countries have import rates below 75%, but some outliers show rates exceeding 100%, indicating 
+high import levels.
+
+Income: The net income per person for most countries is below 4000. There are a few outliers with income levels 
+above 6000, resulting in a right-skewed distribution.
+
+Inflation: Most countries have inflation rates between 0% and 20%, with a few outliers exhibiting rates over 20%.
+
+Life Expectancy: In contrast to other indicators, life expectancy has a left-skewed distribution. Most countries 
+have life expectancy rates between 60 and 80 years, with only a few countries having rates below 50 years.
+
+Total Fertility: Over half of the countries have fertility rates below 4%. There are also some outliers with 
+rates reaching up to 7%.
+
+GDP: GDP per capita for most countries is below 2000, but there are outliers with values as high as 100,000, 
+resulting in a right-skewed distribution.
+
+"""
+Variables with high positive correlation
+
+- Total fertility and Child Mortality
+-Imports and Exports: The higher the imports, the higher the exports. So 
+countries that have high exports also import a lot.
+
+-Income and exports: The higher the countries exports, the higher their income,
+which is intuitive because the foreign exchange obtained from selling locally produced goods
+increases the net income per person. 
+
+- Gdp and Income: The higher the Gross domestic product of a coutry, the higher 
+their income.
+
+- Life expectancy and GDP: The higher the country's GDP, the higher their life expectancy.
+
+Variables with high negative correlation
+- Income and Child Mortality:The higher the country's net income per person, the lower its 
+child mortality.
+
+- Life expectancy and Total fertility: The higher the country's fertility rate, the lower
+its life expectancy
+
+Clustering Process
+Optimal number of clusters
+
+
+Cluster Definition
+ Class 0 - requires urgent foreign aid
+ Class 1 - No foreign aid 
+ Class 2 - not a priority
+ 
+
+
+
 Clustering Insights:
 Most countries in Africa require foreign aid urgently. These countries are characterized 
 by low levels of development which is evidenced by indicators such as  
