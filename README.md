@@ -4,7 +4,9 @@ HELP International an NGO, is committed to fighting poverty and providing the pe
 Task:  Provide the NGO with a group of countries that are in critical conditions. Explore countries in different groups to prioritize when allocating resources.
 Action: Used K-means clustering algorithm to determine the optimal number of clusters and categorize countries based on their foreign aid requirement using the development indicators provided.
 
-Data Distribution
+**Data Distribution**
+[visualization1.pdf](https://github.com/user-attachments/files/16949558/visualization1.pdf)
+
 Child Mortality: The dataset shows that many countries have child mortality rates below 50. However, there 
 are a few outliers with rates of 100 and above, leading to a right-skewed distribution.
 
@@ -31,8 +33,7 @@ rates reaching up to 7%.
 GDP: GDP per capita for most countries is below 2000, but there are outliers with values as high as 100,000, 
 resulting in a right-skewed distribution.
 
-"""
-Variables with high positive correlation
+**Variables with high positive correlation**
 
 - Total fertility and Child Mortality
 -Imports and Exports: The higher the imports, the higher the exports. So 
@@ -47,24 +48,30 @@ their income.
 
 - Life expectancy and GDP: The higher the country's GDP, the higher their life expectancy.
 
-Variables with high negative correlation
+**Variables with high negative correlation**
 - Income and Child Mortality:The higher the country's net income per person, the lower its 
 child mortality.
+[visualization3.pdf](https://github.com/user-attachments/files/16949569/visualization3.pdf)
+
 
 - Life expectancy and Total fertility: The higher the country's fertility rate, the lower
 its life expectancy
+[visualization4.pdf](https://github.com/user-attachments/files/16949625/visualization4.pdf)
 
-Clustering Process
+
+**Clustering Process**
+
 Optimal number of clusters
 
+[visualization5.pdf](https://github.com/user-attachments/files/16949641/visualization5.pdf)
 
-Cluster Definition
+
+**Cluster Definition**
  Class 0 - requires urgent foreign aid
  Class 1 - No foreign aid 
  Class 2 - not a priority
  
-
-
+[visualization6.pdf](https://github.com/user-attachments/files/16949644/visualization6.pdf)
 
 Clustering Insights:
 Most countries in Africa require foreign aid urgently. These countries are characterized 
