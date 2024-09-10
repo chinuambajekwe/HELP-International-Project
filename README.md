@@ -99,3 +99,6 @@ Certain countries in the Middle East and Asia are in urgent need of foreign aid.
 ****Comparing the median indicator values across clusters****
 ![visualization8_page-0001](https://github.com/user-attachments/assets/e87bb31b-6a0f-4466-98e3-01dd55c34a53)
 ![visualization9_page-0001](https://github.com/user-attachments/assets/d74b49f0-8e2e-438e-afa8-10c67edd069a)
+
+
+The graphs above indicate that high-aid priority countries have higher median rates of child mortality, total fertility, and inflation compared to low-aid priority countries. In contrast, low-aid priority countries exhibit higher median levels of exports, life expectancy, and health expenditure. This trend is expected, as high-aid priority countries typically face lower levels of development, larger populations, and inadequate healthcare infrastructure.
