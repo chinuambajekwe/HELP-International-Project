@@ -7,35 +7,37 @@ Action: Used K-means clustering algorithm to determine the optimal number of clu
 **Data Distribution**
 [visualization1.pdf](https://github.com/user-attachments/files/16949558/visualization1.pdf)
 
-Child Mortality: The dataset shows that many countries have child mortality rates below 50. However, there 
+**Child Mortality**: The dataset shows that many countries have child mortality rates below 50. However, there 
 are a few outliers with rates of 100 and above, leading to a right-skewed distribution.
 
-Exports: Most countries have export values below 100, but a small number of countries have exports exceeding 
+**Exports:** Most countries have export values below 100, but a small number of countries have exports exceeding 
 1000, which also results in a right-skewed distribution.
 
-Health Expenditure: Health expenditure for the majority of countries ranges between 2% and 12%. Only a few 
+**Health Expenditure**: Health expenditure for the majority of countries ranges between 2% and 12%. Only a few 
 countries exceed 14%, creating a right-skewed distribution.
 
-Imports: Most countries have import rates below 75%, but some outliers show rates exceeding 100%, indicating 
+**Imports**: Most countries have import rates below 75%, but some outliers show rates exceeding 100%, indicating 
 high import levels.
 
-Income: The net income per person for most countries is below 4000. There are a few outliers with income levels 
+**Income**: The net income per person for most countries is below 4000. There are a few outliers with income levels 
 above 6000, resulting in a right-skewed distribution.
 
-Inflation: Most countries have inflation rates between 0% and 20%, with a few outliers exhibiting rates over 20%.
+**Inflation**: Most countries have inflation rates between 0% and 20%, with a few outliers exhibiting rates over 20%.
 
-Life Expectancy: In contrast to other indicators, life expectancy has a left-skewed distribution. Most countries 
+**Life Expectancy**: In contrast to other indicators, life expectancy has a left-skewed distribution. Most countries 
 have life expectancy rates between 60 and 80 years, with only a few countries having rates below 50 years.
 
-Total Fertility: Over half of the countries have fertility rates below 4%. There are also some outliers with 
+**Total Fertility**: Over half of the countries have fertility rates below 4%. There are also some outliers with 
 rates reaching up to 7%.
 
-GDP: GDP per capita for most countries is below 2000, but there are outliers with values as high as 100,000, 
+**GDP**: GDP per capita for most countries is below 2000, but there are outliers with values as high as 100,000, 
 resulting in a right-skewed distribution.
 
-**Variables with high positive correlation**
+**Exploring Relationships across Variables**
 
-- Total fertility and Child Mortality
+**Variables with high positive correlation**
+- Total fertility and Child Mortality: The higher the fertility rates, the higher the child mortality rate
+  
 -Imports and Exports: The higher the imports, the higher the exports. So 
 countries that have high exports also import a lot.
 
